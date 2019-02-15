@@ -39,11 +39,17 @@
 * 项目介绍：信用卡办理、网络贷款、pos机办理推广平台；
 基于SpringBoot，整合SpringMVC、MyBatis、Dubbo、Redis、RabbitMq的高可用服务；
 * 工作描述：
+
 项目搭建：整合SpringBoot简化配置，通过Maven实现多环境配置变量，整合Dubbo实现分布式服务以及集群容错；
+
 微信公众号：微信Oauth2.0授权登录(redis缓存授权状态)，模版消息推送，自定义菜单；
+
 权限模块：JWT实现登录控制，Intercepter+Annotation实现JWT校验；
+
 订单模块：RabbitMq发放下单奖励（解耦、异步），支付宝支付，微信支付；
+
 库存模块：RabbitMq推送集团ERP系统（解耦、异步）；
+
 
 ### 友刷App
 * 项目介绍：pos机服务商业务拓展平台
