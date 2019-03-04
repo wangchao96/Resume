@@ -14,15 +14,22 @@
 * Email：wangchao_96@163.com
 * 微信号：W13755217682
 
+
 # 技能清单
 
-* java基本功扎实，熟悉Java SE和Java EE技术，掌握JVM运作机制，了解常见算法和设计模式
-* 熟练使用常用的MVC(SpringMvc/Struts2)、ORM框架(Mybatis/Hibernate)，熟悉常见的RPC（Dubbo）框架
-* 熟悉分布式、缓存（Redis）、消息（RabbitMQ）等机制；
-* 熟练使用MySQL,Oracle进行应用开发，熟悉数据库原理，对数据库事物、锁机制等原理有较深的了解
-* 熟悉HTML/CSS/Javascript/Jquery及其周边常用框架
-* 熟悉Linux系统，熟练使用Linux命令
-* 熟练使用Svn/Git/Maven/Jenkins/SonarQube/ApiView/YAPI等版本管理、自动化部署工具
+* 熟悉常用数据结构。（链表、二叉树、队列、栈 ...）
+* 掌握常见设计模式（单例、工厂、代理、适配器 ...），了解设计模式的常见使用场景。
+* 对于常见网络协议（TCP、UDP、HTTP ...）有一定了解。
+* 熟悉Java集合，阅读过常用集合源码。（ArrayList、LinkedList、HashSet、HashMap ...）
+* 熟悉多线程开发，阅读过常用 JUC 并发集合源码。(CopyOnWriteArrayList、ConcurrentHashMap ...)
+* 对于常用的同步辅助类（CountDownLatch／CyclicBarrier／Semaphore）有一定理解。
+* 对于 JVM 内存结构、GC 原理有一定的理解。
+* 熟悉使用 Mysql 开发，了解常见数据库引擎，对于数据库事务、锁机制有一定理解。
+* 常用 Spring 框架，阅读过 MVC、IOC、AOP 源码，了解其中运行原理。
+* 在实际项目中使用 Redis、MQ、Dubbo 处理过高并发场景，对于这些中间件的常见问题的线上解决方案有一定理解。
+* 参与过基于 Dubbo 做远程调用框架的项目拆分重构。
+* 对于分布式场景常见问题（分布式锁、分布式事务、分布式Session、接口幂等性）的线上解决方案有一定理解。
+
 
 
 # 工作经历
@@ -52,6 +59,7 @@
 信用卡办理、网络贷款、pos机办理推广平台；
 基于SpringBoot，整合SpringMVC、MyBatis、Dubbo、Redis、RabbitMq的高可用服务；
 * 工作描述：
+作为核心开发人员处理以下问题：
 项目搭建：整合SpringBoot简化配置，通过Maven实现多环境配置变量，整合Dubbo实现分布式服务，
 tomcat + redis实现分布式session,zookeeper实现分布式锁；
 微信公众号：微信Oauth2.0授权登录(redis缓存授权状态)，模版消息推送，自定义菜单；
@@ -59,10 +67,11 @@ tomcat + redis实现分布式session,zookeeper实现分布式锁；
 订单模块：RabbitMq发送下单通知（解耦、异步），支付宝支付，微信支付；
 商品模块：redis缓存热点数据，redis实现时时排行榜；
 
-### 友刷App
+### U盟App
 * 项目介绍：
 pos机服务商业务拓展平台
 * 工作描述：
+作为核心开发人员处理以下问题：
 版本迭代、日常维护
 微信公众号：微信Oauth2.0授权登录；
 机具采购：采购下单，采购单查询；
@@ -74,6 +83,7 @@ pos机服务商业务拓展平台
 * 项目介绍：
 玩具租赁电商平台
 * 工作描述：
+作为核心开发人员处理以下问题：
 短信模块:多短信通道,线程池发送短信；
 运力模块、库存模块:通过dubbo实现解耦以及熔断，提高主业务的稳定性；
 优惠券模块：通过mq实现解耦以及异步，提高主业务系统的性能；
@@ -86,6 +96,7 @@ pos机服务商业务拓展平台
 * 项目介绍：
 基于SpringBoot,整合SpringMvc + shiro + mybatis 高可用性后台管理系统;
 * 工作描述：
+作为核心开发人员处理以下问题：
 项目搭建：整合SpringBoot简化项目配置,通过Maven实现多环境配置变量;
 日志分析模块：实现服务器日志按天分割，分析访问日志并生产可视化报告;
 权限管理：shiro实现权限控制;
